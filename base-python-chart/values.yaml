@@ -5,11 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: kamgaurav83/fastapi1
+  repository: kamgaurav83/gcp-healthcheck
   #nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "fastapi-image"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
