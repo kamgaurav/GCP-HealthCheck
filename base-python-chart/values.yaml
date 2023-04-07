@@ -27,7 +27,8 @@ serviceAccount:
 podAnnotations: {}
 
 podSecurityContext: {
-  runAsNonRoot: true
+  runAsUser: 1001,
+  runAsGroup: 1001
 }
   # fsGroup: 2000
 
@@ -36,6 +37,8 @@ securityContext: {}
   #   drop:
   #   - ALL
   # readOnlyRootFilesystem: true
+  # runAsNonRoot: true,
+  # runAsUser: 1001
   
 
 service:
