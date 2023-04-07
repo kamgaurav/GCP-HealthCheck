@@ -31,10 +31,7 @@ podSecurityContext: {
 }
   # fsGroup: 2000
 
-securityContext: {
-  runAsNonRoot: true,
-  runAsUser: 1001
-}
+securityContext: {}
   # capabilities:
   #   drop:
   #   - ALL
