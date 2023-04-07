@@ -26,7 +26,9 @@ serviceAccount:
 
 podAnnotations: {}
 
-podSecurityContext: {}
+podSecurityContext: {
+  runAsNonRoot: true
+}
   # fsGroup: 2000
 
 securityContext: {
