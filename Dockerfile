@@ -1,4 +1,4 @@
-FROM docker.io/library/python:3.8.16-alpine
+FROM docker.io/library/python:3.12.0a5-slim
 
 RUN groupadd -g 1001 python && \
     useradd -r -u 1001 -g python python
